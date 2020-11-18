@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require "faker"
+
+department = Department.create(name: 'Groceries')
+department = Department.create(name: 'Electronics')
+department = Department.create(name: 'Clothing')
